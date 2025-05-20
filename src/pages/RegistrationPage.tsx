@@ -18,7 +18,7 @@ const RegistrationPage: React.FC = () => {
   return (
     <div className="section">
       <div className="container-custom">
-        <h1 className="section-title">انضم إلى عائلة دي إكس إن</h1>
+        <h1 className="section-title">صفحة تسجيل عضو جديد       </h1>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Video Section */}

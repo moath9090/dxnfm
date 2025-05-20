@@ -2,7 +2,7 @@ import React from 'react';
 import { sectionCards } from '../utils/data';
 import SectionCard from '../components/HomePage/SectionCard';
 import RegisterButton from '../components/HomePage/RegisterButton';
-
+import { Link } from 'react-router-dom';
 const HomePage: React.FC = () => {
   return (
     <div>
@@ -10,10 +10,21 @@ const HomePage: React.FC = () => {
       <section className="relative py-20 bg-gradient-to-b from-[#0075b3] to-[#0088cc] text-white text-center">
         <div className="container-custom text-center">
           <h1 className="text-3xl md:text-5xl font-bold text-white mb-6">
-            مرحباً بكم في منصة مشروع شركة DXN          
+            مرحباً بكم في دراسة مشروع العمل مع DXN          
           </h1>
           <p className="text-primary-100 text-lg md:text-xl max-w-3xl mx-auto">
+                               احصل على عضوية مجانية دائمية مدى الحياة !!!                                
+          </p>
+          <p className="text-primary-100 text-lg md:text-xl max-w-3xl mx-auto">
                         (حياة صحية وثراء مالي في آن واحد)                        
+          </p>
+          <p className="text-primary-100 text-lg md:text-xl max-w-3xl mx-auto">
+                        ---                       
+          </p>
+          <p className="text-primary-100 text-lg md:text-xl max-w-3xl mx-auto">
+                       <Link to="/register" className="btn btn-primary   bg-gradient-to-b from-[#0075b3] to-[#0088cc] text-white text-center">
+            سَجِل الآن      
+            </Link>                     
           </p>
         </div>
       </section>
